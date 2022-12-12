@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col{
+    overflow: hidden;
+}
+
+
+.img-carrusel{
+    height: 200px;
+    object-fit: cover;
+
+}
+
+
+.img-card-chapitre{
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+
+.img-card-chapitre:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.card{
+    border: none;
+    transition: all 500ms ease;
+    overflow: hidden;
+}
+
+
+.card-body{
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.635);
+    color: white;
+    font-weight: bold;
+}
+
+.card-title{
+    margin: 5px 0px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.numEpisode{
+    font-size: 12px;
+    background-color: green;
+    width: max-content;
+    padding: 3px 15px;
+}
+
+
+.card-animation:hover{
+    transform: scale(1.05);
+    transition: 500ms;
+}
+
+/* PAGINATION FAVORIE */
+
+.fav{
+    color: red;
+    font-size: 32px
+}
+
+.favori{
+    background-color: black;
+    color: white;
+    width: max-content;
+    padding: 5px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.clear{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 20;
+}
+
