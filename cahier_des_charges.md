@@ -19,18 +19,39 @@ Une fois terminé, le cahier des charges devra être exporté au format **PDF**.
 
 <details><summary>Etape 0 : Cahier des charge</summary>
 
-##### Objectifs
-**Développer un projet coordonné en groupe, tout en ayant une liberté créative sur le sujet principal.**
-
--> Responsive
--> JS FE
+##  ***Nom de l'appli : Myanimelist***
 
 
-</details>
 
-en groupe, tout en ayant une liberté créative
 
-- Spécificités techniques de l’application :   
-- Délais de réalisation de l’app.
 
-<details><summary>Etape 1 : Cahier des charge</summary>
+##  ***Description :***
+Application qui permet de rechercher des animés grâce à une API.
+
+
+
+## ***Fonctionnalitées :***
+- Créer un formulaire de recherche pour les animés, en les affichant les résultats et la possibilité de les trier et de les filtrer.
+- Pouvoir de collectionner des résultats en les ajoutant à sa liste de favori
+- Pouvoir exporter sa liste personnelle de favori afin de pouvoir le partager avec n'importe qui.
+- Pouvoir rechercher les anime par note
+  
+## ***Technologies et Outils utilisées :***
+
+***Technologies :***
+- JS ou PHP
+- Html/Css
+
+***Outils :***
+- Figma 
+- Jira (Gestion de proejt)
+- Discord
+- Vscode
+- Mysql 
+***Charte graphique :***
+
+Le thème sera sobre : 
+- Couleur principal (#fff)
+- Couleur secondaire (##7eb795)(#a2a2a2)
+ 
+
