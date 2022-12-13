@@ -9,15 +9,19 @@
 ![img](asset/Anime-Banner.jpg "Animelist")
 
 ------
-## ① Constitution du groupe et du cahier des charges
+RoadMap :
 
-Tout d'abord, il vous faudra constituer des groupes de travail. Ensuite, il vous faudra choisir l'une des API proposées afin de déterminer le sujet de votre application servant à collecter des éléments.
+ -> https://my-anime-list.atlassian.net/jira/software/c/projects/MAL/boards/1/roadmap
 
-Partant de là, vous rédigerez un court cahier des charges écrit au format Markdown, qui reprendra les fonctionnalités du projet ci-dessus mais en les adaptant en fonction de l'API choisie. N'hésitez pas à rajouter des informations quand au but et à l'usage de votre projet.
+[✅] Cahier des charge -> need design refacto @Zerio
+[✅] Planning du projet ( https://my-anime-list.atlassian.net/jira/software/c/projects/MAL/boards/1/roadmap )
+[✅] Charte graphique ( WIP -> readme.md ) @Zerio 
+[✅] Modélisation des données ( To do -> readme.md )
+[⏳] Développement ( Recette graphique @Lakdar | Collection @Zerio | Register/Login/Forget-password @Edrisp )
+[⏳] Documentation utilisateur @Edrisp
 
-Une fois terminé, le cahier des charges devra être exporté au format PDF.
 
-<details><summary>Etape 0 : Cahier des charge</summary>
+<details><summary>Etape ① : Cahier des charge</summary>
 
 ##  Nom de l'appli : Myanimelist
 
