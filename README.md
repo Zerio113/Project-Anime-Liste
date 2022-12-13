@@ -58,4 +58,4 @@ Le thème sera sobre :
   
 Modélisation des données :
 
-![img](asset/Anime-Banner.jpg)
+![img](asset/animeliste.drawio.png)
