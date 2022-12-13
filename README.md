@@ -6,7 +6,7 @@
 #### API choisi :   Anime Liste 
 ------
 
-![img](asset/Anime-Banner.jpg "Animelist")
+![img](img/Anime-Banner.jpg "Animelist")
 
 ------
 RoadMap :
@@ -59,7 +59,7 @@ Outils :
 - Mysql 
 Charte graphique :
 
-![img](asset/MyAnimeList_Logo.png "Animelist")
+![img](img/MyAnimeList_Logo.png "Animelist")
 
 Le thème sera sobre : 
 - Couleur principal (#fff)
@@ -67,4 +67,4 @@ Le thème sera sobre :
   
 Modélisation des données :
 
-![img](asset/animeliste.drawio.png)
+![img](img/animeliste.drawio.png)
