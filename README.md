@@ -14,10 +14,15 @@ RoadMap :
  -> https://my-anime-list.atlassian.net/jira/software/c/projects/MAL/boards/1/roadmap
 
 [✅] Cahier des charge -> need design refacto @Zerio
+
 [✅] Planning du projet ( https://my-anime-list.atlassian.net/jira/software/c/projects/MAL/boards/1/roadmap )
+
 [✅] Charte graphique ( WIP -> readme.md ) @Zerio 
+
 [✅] Modélisation des données ( To do -> readme.md )
+
 [⏳] Développement ( Recette graphique @Lakdar | Collection @Zerio | Register/Login/Forget-password @Edrisp )
+
 [⏳] Documentation utilisateur @Edrisp
 
 
