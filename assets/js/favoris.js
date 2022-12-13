@@ -17,8 +17,10 @@ if(localStorage.getItem("favoris")){
                                         
                                     </div>
                                 </a>
-                                <button class="del" id="${fav.id}">x</button>
-                            </div>
+                                <button class="btn btn-danger" id="${fav.id}"
+                                    style="margin: auto;text-align: center;margin-top: 10px;"> &gt;Supprime
+                                </button>
+                                </div>
                         `;
 
         favo.innerHTML += template;

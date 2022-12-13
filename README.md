@@ -55,3 +55,7 @@ Charte graphique :
 Le thème sera sobre : 
 - Couleur principal (#fff)
 - Couleur secondaire (##7eb795)(#a2a2a2)
+  
+Modélisation des données :
+
+![img](asset/Anime-Banner.jpg)
