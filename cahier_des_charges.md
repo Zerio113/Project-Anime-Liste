@@ -17,7 +17,7 @@ Partant de là, vous rédigerez un court **cahier des charges** écrit au format
 
 Une fois terminé, le cahier des charges devra être exporté au format **PDF**.
 
-<details><summary>Etape 0 : Cahier des charge</summary>
+Etape 0 : Cahier des charge
 
 ##  ***Nom de l'appli : Myanimelist***
 
