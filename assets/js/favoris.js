@@ -18,7 +18,6 @@ if(localStorage.getItem("favoris")){
                                     </div>
                                 </a>
                                 <button class="del" id="${fav.id}">x</button>
-                                
                             </div>
                         `;
 
