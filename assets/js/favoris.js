@@ -17,8 +17,8 @@ if(localStorage.getItem("favoris")){
                                         
                                     </div>
                                 </a>
-                                <button class="btn btn-danger" id="${fav.id}"
-                                    style="margin: auto;text-align: center;margin-top: 10px;"> &gt;Supprime
+                                <button class="del btn btn-danger" id="${fav.id}"
+                                    style="margin: auto;text-align: center;margin-top: 10px;"> &gt;Supprimer
                                 </button>
                                 </div>
                         `;
