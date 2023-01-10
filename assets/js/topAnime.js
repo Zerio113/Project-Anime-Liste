@@ -1,4 +1,4 @@
-const urlTop = "https://api.jikan.moe/v4/top/anime?filter=airing";
+const urlTop = "https://api.jikan.moe/v4/top/anime";
 const listTop = document.getElementById("animesTop");
 
 topAnime(urlTop, listTop);
@@ -8,7 +8,7 @@ async function topAnime(url, listTop){
     const reponse = await fetch(url);
     const date = await reponse.json();
 
-    const animesTop = date.data.slice(0,8);
+    const animesTop = date.data.slice(0,5);
 
     animesTop.forEach((anime) => {
 

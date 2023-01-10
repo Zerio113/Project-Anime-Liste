@@ -18,11 +18,14 @@ async function Recherche(url, Recherche){
         const info = {
             image: result.images.jpg.image_url,
             title: result.title,
-            id: result.mal_id
+            id: result.mal_id,
+            genres: result.genres
+
         };
+        const genres = info.genres.map((genre) => genre.name).join(" ");
     
         const template = `
-                            <div class="col mb-4">
+                            <div class="col mb-4" data-category="${genres}">
                                 <a href="infoanime.html?id=${info.id}">
                                     <div class="card card-animation">
                                     <img src="${info.image}" class="card-img-top" alt="${info.title}">
