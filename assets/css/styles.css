@@ -7,12 +7,77 @@
 body {
   /* Masquage du contenu qui dépasse de la largeur de la page */
   overflow-x: hidden;
+  background-color: #000000;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+.btn-5:hover {
+  color: #950101;
+  background: transparent;
+   box-shadow:none;
+}
+.btn-5:before,
+.btn-5:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #950101;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  width:100%;
+  transition:800ms ease all;
 }
 
 .col{
     overflow: hidden;
 }
 
+.navbar{
+    background-color: #000000;
+    height: 80px;
+}
 
 .img-carrusel{
      /* Ajout d'une transition */
@@ -62,7 +127,7 @@ body {
 
 .card {
   /* Ajout d'une bordure et d'une ombre */
-  border: 1px solid #ccc;
+  border: 1px solid rgb(255, 0, 0);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   /* Ajout d'une image en arrière-plan */
@@ -71,7 +136,7 @@ body {
   background-position: center;
 
   /* Changement de la couleur de fond */
-  background-color: #f8f8f8;
+  background-color: #950101;
 
   /* Ajout d'une transition */
   transition: all 500ms ease;
@@ -116,7 +181,7 @@ body {
 
 .numEpisode{
     font-size: 12px;
-    background-color: green;
+    background-color: rgb(128, 0, 0);
     width: max-content;
     padding: 3px 15px;
 }
@@ -193,7 +258,7 @@ superbutton {
     z-index: 0;
     transition: .3s;
     cursor: pointer;
-    left: 50px;
+    left: 80px;
     top: 20px;
   }
   superbutton:before {
@@ -320,10 +385,19 @@ superbutton {
       opacity:0.9;
   }
 
+  .red-text-title {
+    font-family: fantasy;
+    color: #ff0000;
+    font-size: 50px; /* Modification de la taille du texte */
+    font-weight: 600; /* Mise en gras du texte */
+
+
+  }
+
   .filters {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     margin-bottom: 20px;
   }
   
@@ -344,10 +418,10 @@ superbutton {
     font-size: 18px; /* Modification de la taille du texte */
     font-family: 'Montserrat', sans-serif; /* Ajout d'une police de caractère */
     font-weight: 600; /* Mise en gras du texte */
-    color: rgb(0, 0, 0);
+    color:#950101;
     border: none;
     padding: 10px 15px;
-    box-shadow: 0 2px 5px rgba(12, 158, 216, 0.658);
+    box-shadow: 0 20px 50px #FF0000;
     transition: all 0.2s;
   }
   
@@ -357,13 +431,12 @@ superbutton {
   }
   
   .filter:hover {
-    background-color: rgba(32, 200, 230, 0.575);
+    background-color: #3D0000;
     color: #fff;
   }
   
   .filter.active {
-    background-color: rgb(0, 255, 200);
+    background-color: #3D0000;
     color: rgb(43, 204, 21);
     font-weight: bold;
   }
-  

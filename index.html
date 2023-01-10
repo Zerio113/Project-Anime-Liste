@@ -16,40 +16,8 @@
   </head>
   <body>
 
-<!-- ---------------------------------------- navbar ---------------------------------------- -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand text-success" href="index.html">My anime list</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
     
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Acceuil <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item mr-4">
-                      <a class="nav-link" href="templates/favoris.html">Favoris</a>
-                  </li>
-                  <li class="nav-item mr-4">
-                    <a class="nav-link" href="templates/compte.html">Mon compte</a>
-                </li>
-                </ul>
-                <superbutton-navbar class="navbar-nav">
-                  <img src="https://picsum.photos/800">
-                </superbutton-navbar>
-                <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-
-<!-- ---------------------------------------- navbar ---------------------------------------- -->
-
 <!-- ---------------------------------------- carousel ---------------------------------------- -->
         <div class="row mb-4">
             <div class="col">
@@ -81,10 +49,31 @@
                         <span class="sr-only">Suivant</span>
                       </a>
                   </div>
-            </div>
-        </div>
 <!-- ---------------------------------------- carousel ---------------------------------------- -->
+<!-- ---------------------------------------- navbar ---------------------------------------- --> 
+                  <nav class="navbar navbar-expand-lg navbar-blue bg-blue">
+                    <div class="container">
 
+                      <a class="navbar-brand" href="index.html">
+                          <img src="/img/mal.png" width="240px" height="240px" class="d-inline-block align-top" alt="">
+                      </a>
+
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <form class="form-inline my-2 my-lg-0">
+                          <superbutton-navbar class="navbar-nav">
+                            <img src="https://picsum.photos/800">
+                          </superbutton-navbar> 
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn my-2 my-sm-0 custom-btn btn-5" type="submit">Rechercher</button>
+                        </form>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+<!-- ---------------------------------------- navbar ---------------------------------------- --> 
 <!-- ---------------------------------------- Left row ---------------------------------------- -->         
         <div class="row">
             <div class="col-md-3">
@@ -104,7 +93,7 @@
 <!-- ---------------------------------------- +++++++++ ---------------------------------------- -->        
 <!-- ---------------------------------------- Right row ---------------------------------------- -->         
             <div class="col-md-9">
-                <h2 class="mt-4">Derniers animés ajoutés</h2>
+                <h2 class="mt-4 red-text-title">Derniers animés ajoutés</h2>
                 <div class="filters">
                   <div class="filters-container">
                     <div class="filter" data-category="all">Tous</div>
